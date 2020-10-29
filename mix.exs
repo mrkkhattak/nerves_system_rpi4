@@ -1,9 +1,9 @@
 defmodule NervesSystemRpi4.MixProject do
   use Mix.Project
 
-  @github_organization "nerves-project"
-  @app :nerves_system_rpi4
-  @source_url "https://github.com/#{@github_organization}/#{@app}"
+  @github_organization "skyelectric"
+  @app :nerves_system_rpi4_se
+  @source_url "https://github.com/mrkkhattak/nerves_system_rpi4"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
@@ -42,7 +42,7 @@ defmodule NervesSystemRpi4.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:github_releases, "#{@github_organization}/#{@app}"}
+        {:github_releases, ""}
       ],
       build_runner_opts: build_runner_opts(),
       platform: Nerves.System.BR,

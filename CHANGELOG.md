@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.13.1
+Enabled multiple UART support by SkyElectric. 
+
 ## v1.13.0
 
 This release updates to [Buildroot
